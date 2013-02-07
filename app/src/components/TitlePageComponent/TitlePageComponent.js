@@ -16,8 +16,6 @@ define(
 			template: TitlePageComponentTemplate
 		});
 		
-		Component.registerStyle(TitlePageComponentStyle);
-		
-		return TitlePageComponent;
+		return Component.register(TitlePageComponent, "components.TitlePageComponent", TitlePageComponentStyle);
 	}
 );
