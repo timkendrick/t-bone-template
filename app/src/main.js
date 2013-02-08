@@ -9,6 +9,9 @@ define(
 		
 		TitlePageComponent
 	) {
+		// Initialise component styles
+		Component.init();
+		
 		// Define the root page model
 		var rootPageModel = new Component.Model({
 			title: "Cookin' with gas!",
