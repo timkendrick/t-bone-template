@@ -6,7 +6,7 @@ define(
 		"components/TitlePageComponent/TitlePageComponent"
 	],
 	function(
-		$
+		$,
 		Component,
 		
 		TitlePageComponent
