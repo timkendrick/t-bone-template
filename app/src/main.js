@@ -33,6 +33,6 @@ define(
 		rootPageModel.activate();
 		
 		// Listen for window resize events
-		$(window).on("resize", function() { rootPageModel.updateSize(); });
+		if (typeof window !== 'undefined') { $(window).on("resize", function() { rootPageModel.updateSize(); }); }
 	}
 );
