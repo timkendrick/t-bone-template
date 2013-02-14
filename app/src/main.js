@@ -1,10 +1,12 @@
 define(
 	[
+		"jquery",
 		"tbone",
 		
 		"components/TitlePageComponent/TitlePageComponent"
 	],
 	function(
+		$
 		Component,
 		
 		TitlePageComponent
