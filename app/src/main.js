@@ -29,7 +29,7 @@ define(
 		rootPageModel.render();
 		
 		// Add the root page component's DOM element to the document
-		$("[role=main]").append(rootPageModel.$el);
+		$("[role=main]").empty().append(rootPageModel.$el);
 		
 		// Activate the root page component
 		rootPageModel.activate();
